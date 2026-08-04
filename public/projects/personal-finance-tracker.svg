@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#121A2C"/>
+      <stop offset="100%" stop-color="#182238"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="450" fill="url(#bg)"/>
+  <g opacity="0.5">
+    <circle cx="80" cy="80" r="3" fill="#17C3A2"/>
+    <circle cx="120" cy="80" r="3" fill="#F2A93B"/>
+    <circle cx="160" cy="80" r="3" fill="#8B93A7"/>
+  </g>
+  <rect x="60" y="110" width="680" height="1" fill="#232D45"/>
+  <text x="400" y="250" font-family="'Space Grotesk', sans-serif" font-size="30" font-weight="600" fill="#E7EAF2" text-anchor="middle">Personal Finance Tracker</text>
+  <text x="400" y="285" font-family="'JetBrains Mono', monospace" font-size="14" fill="#17C3A2" text-anchor="middle">screenshot placeholder</text>
+</svg>

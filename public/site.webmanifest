@@ -1,0 +1,9 @@
+{
+  "name": "Ademola Olalekan Adedolapo - Full Stack Developer",
+  "short_name": "Ademola Olalekan Adedolapo",
+  "icons": [{ "src": "/favicon.svg", "sizes": "any", "type": "image/svg+xml" }],
+  "theme_color": "#0B1120",
+  "background_color": "#0B1120",
+  "display": "standalone",
+  "start_url": "/"
+}

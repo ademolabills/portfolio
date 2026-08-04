@@ -1,0 +1,58 @@
+[
+  {
+    "id": "goal-fulltime",
+    "role": "Full Stack Developer",
+    "organization": "Open to opportunities",
+    "location": "Remote / Relocation friendly",
+    "period": "2026 — onward",
+    "type": "Goal",
+    "description": "Looking to join a product engineering team where I can own features end-to-end, from database schema to shipped UI.",
+    "highlights": [
+      "Interested in teams that value code review and mentorship",
+      "Comfortable across the React + Django stack, eager to learn new ones"
+    ],
+    "current": true
+  },
+  {
+    "id": "freelance-2025",
+    "role": "Freelance Full Stack Developer",
+    "organization": "Self-employed",
+    "location": "Remote",
+    "period": "2025 — Present",
+    "type": "Freelance",
+    "description": "Building websites and small web applications for local businesses and student organizations, handling everything from requirements gathering to deployment.",
+    "highlights": [
+      "Delivered 6 client projects across restaurant, retail and education niches",
+      "Set up CI-friendly deployments on Vercel and Render for every client",
+      "Wrote lightweight documentation so non-technical clients can update content"
+    ]
+  },
+  {
+    "id": "internship-2024",
+    "role": "Software Development Intern",
+    "organization": "Tech Solutions Inc.",
+    "location": "Hybrid",
+    "period": "Jun 2024 — Sep 2024",
+    "type": "Internship",
+    "description": "Joined a small engineering team building internal tools, paired daily with senior developers on a Django + React admin dashboard.",
+    "highlights": [
+      "Shipped 12 merged pull requests across backend and frontend",
+      "Built a reusable data table component adopted across three internal tools",
+      "Wrote unit tests that raised backend coverage from 61% to 78%"
+    ]
+  },
+  {
+    "id": "self-taught-2023",
+    "role": "Independent Study & Personal Projects",
+    "organization": "Self-directed",
+    "location": "Remote",
+    "period": "2022 — 2024",
+    "type": "Freelance",
+    "description": "Built a foundation in web development through structured coursework and progressively harder personal projects.",
+    "highlights": [
+      "Completed full stack coursework covering JavaScript, React, Python and Django",
+      "Built and shipped 6+ personal projects, several featured in this portfolio",
+      "Contributed small fixes to open-source repositories on GitHub"
+    ]
+  }
+]

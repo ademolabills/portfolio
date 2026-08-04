@@ -1,0 +1,29 @@
+[
+  {
+    "id": "b1",
+    "title": "What building a Django REST API taught me about serializer design",
+    "excerpt": "Notes on nested serializers, N+1 queries, and keeping an API predictable as it grows.",
+    "date": "Coming soon",
+    "readTime": "6 min",
+    "tags": ["Django", "REST API"],
+    "status": "coming-soon"
+  },
+  {
+    "id": "b2",
+    "title": "A practical guide to scroll-triggered animation performance",
+    "excerpt": "How I keep Framer Motion animations smooth on mid-range mobile devices.",
+    "date": "Coming soon",
+    "readTime": "5 min",
+    "tags": ["React", "Performance"],
+    "status": "coming-soon"
+  },
+  {
+    "id": "b3",
+    "title": "TypeScript patterns I reach for in every React project",
+    "excerpt": "Discriminated unions, generic hooks, and other patterns that pay for themselves quickly.",
+    "date": "Coming soon",
+    "readTime": "7 min",
+    "tags": ["TypeScript", "React"],
+    "status": "coming-soon"
+  }
+]

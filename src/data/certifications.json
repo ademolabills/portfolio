@@ -1,0 +1,30 @@
+[
+  {
+    "id": "Aptech",
+    "name": "Full Stack Web Developer Professional Certificate",
+    "issuer": "Aptech",
+    "year": "2022",
+    "url": "https://www.aptech.com/certifications/full-stack-web-developer-professional-certificate"
+  },
+  {
+    "id": "django-rest",
+    "name": "Django for Everybody Specialization",
+    "issuer": "University of Michigan (Coursera)",
+    "year": "2023",
+    "url": "https://www.coursera.org/specializations/django"
+  },
+  {
+    "id": "responsive-design",
+    "name": "Responsive Web Design",
+    "issuer": "freeCodeCamp",
+    "year": "2022",
+    "url": "https://www.freecodecamp.org/certification"
+  },
+  {
+    "id": "js-algorithms",
+    "name": "JavaScript Algorithms and Data Structures",
+    "issuer": "freeCodeCamp",
+    "year": "2022",
+    "url": "https://www.freecodecamp.org/certification"
+  }
+]

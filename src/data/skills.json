@@ -1,0 +1,39 @@
+[
+  {
+    "category": "Frontend",
+    "items": [
+      { "name": "HTML", "level": 95, "icon": "FaHtml5" },
+      { "name": "CSS", "level": 90, "icon": "FaCss3Alt" },
+      { "name": "JavaScript", "level": 92, "icon": "FaJs" },
+      { "name": "TypeScript", "level": 85, "icon": "SiTypescript" },
+      { "name": "React", "level": 90, "icon": "FaReact" },
+      { "name": "Tailwind CSS", "level": 88, "icon": "SiTailwindcss" }
+    ]
+  },
+  {
+    "category": "Backend",
+    "items": [
+      { "name": "Python", "level": 88, "icon": "FaPython" },
+      { "name": "Django", "level": 82, "icon": "SiDjango" },
+      { "name": "REST API", "level": 85, "icon": "SiFastapi" }
+    ]
+  },
+  {
+    "category": "Database",
+    "items": [
+      { "name": "MySQL", "level": 80, "icon": "SiMysql" },
+      { "name": "SQLite", "level": 78, "icon": "SiSqlite" }
+    ]
+  },
+  {
+    "category": "Tools",
+    "items": [
+      { "name": "Git", "level": 88, "icon": "FaGitAlt" },
+      { "name": "GitHub", "level": 90, "icon": "FaGithub" },
+      { "name": "VS Code", "level": 92, "icon": "VscVscode" },
+      { "name": "Vite", "level": 85, "icon": "SiVite" },
+      { "name": "Postman", "level": 80, "icon": "SiPostman" },
+      { "name": "Figma", "level": 70, "icon": "FaFigma" }
+    ]
+  }
+]

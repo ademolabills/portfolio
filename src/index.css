@@ -1,0 +1,115 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --grid-line: rgba(35, 45, 69, 0.35);
+  color-scheme: dark;
+}
+
+.light {
+  --grid-line: rgba(227, 230, 237, 0.9);
+  color-scheme: light;
+}
+
+* {
+  scroll-behavior: smooth;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+body {
+  @apply bg-ink text-text-dark font-body antialiased transition-colors duration-300;
+}
+
+body.light {
+  @apply bg-paper text-text-light;
+}
+
+::selection {
+  background-color: theme('colors.signal.500');
+  color: theme('colors.ink.DEFAULT');
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background-color: theme('colors.signal.600');
+  border-radius: 999px;
+  border: 2px solid transparent;
+  background-clip: content-box;
+}
+
+/* Focus visibility for accessibility */
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+textarea:focus-visible,
+[tabindex]:focus-visible {
+  outline: 2px solid theme('colors.signal.500');
+  outline-offset: 3px;
+  border-radius: 4px;
+}
+
+/* Glassmorphism helper */
+.glass {
+  @apply backdrop-blur-xl bg-white/5 border border-white/10;
+}
+.light .glass {
+  @apply bg-white/60 border border-black/5;
+}
+
+/* Grid background used behind hero / section eyebrows */
+.bg-dot-grid {
+  background-image: radial-gradient(var(--grid-line) 1px, transparent 1px);
+  background-size: 24px 24px;
+}
+
+/* Custom cursor - hidden on touch devices via JS check */
+.cursor-dot,
+.cursor-ring {
+  position: fixed;
+  top: 0;
+  left: 0;
+  pointer-events: none;
+  z-index: 100;
+  border-radius: 999px;
+  transform: translate(-50%, -50%);
+  will-change: transform;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* Skip link */
+.skip-link {
+  position: absolute;
+  left: -9999px;
+  top: 1rem;
+  z-index: 200;
+  background: theme('colors.signal.500');
+  color: theme('colors.ink.DEFAULT');
+  padding: 0.75rem 1.25rem;
+  border-radius: 0.5rem;
+  font-weight: 600;
+}
+.skip-link:focus {
+  left: 1rem;
+}

@@ -1,0 +1,29 @@
+[
+  {
+    "id": "t1",
+    "name": "Amara Chukwu",
+    "role": "Engineering Lead",
+    "company": "Regional Tech Hub",
+    "avatar": "/testimonials/avatar-1.svg",
+    "quote": "One of the fastest-ramping interns I've mentored. Picked up our Django codebase in a week and was shipping reviewed pull requests by week three.",
+    "rating": 5
+  },
+  {
+    "id": "t2",
+    "name": "David Okon",
+    "role": "Owner",
+    "company": "Okon's Kitchen",
+    "avatar": "/testimonials/avatar-2.svg",
+    "quote": "Rebuilt our restaurant site and it finally feels like the food tastes. Communicated clearly at every step and delivered ahead of schedule.",
+    "rating": 5
+  },
+  {
+    "id": "t3",
+    "name": "Priya Nair",
+    "role": "Program Coordinator",
+    "company": "Regional Science College Alumni Network",
+    "avatar": "/testimonials/avatar-3.svg",
+    "quote": "Took a vague brief and turned it into a clean, accessible site our whole alumni network actually uses. Would hire again without hesitation.",
+    "rating": 5
+  }
+]

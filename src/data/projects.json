@@ -1,0 +1,118 @@
+[
+  {
+    "id": "student-management-system",
+    "title": "Student Management System",
+    "summary": "A full-stack platform for managing student records, grades and attendance.",
+    "description": "A role-based web application for schools to manage student enrollment, attendance and grade reporting. Built with a React front end and a Django REST API backed by MySQL, with separate dashboards for admins, teachers and students.",
+    "image": "/projects/student-management-system.svg",
+    "technologies": ["React", "Django", "MySQL", "REST API", "TypeScript"],
+    "features": [
+      "Role-based authentication for admins, teachers and students",
+      "Attendance tracking with exportable CSV reports",
+      "Grade book with automatic GPA calculation",
+      "Searchable, paginated student directory"
+    ],
+    "challenges": "Designing a permission system that cleanly separated what admins, teachers and students could see and edit, without duplicating logic across the API and the client.",
+    "learnings": "Deepened my understanding of Django's permission classes and serializers, and how to mirror backend validation on the frontend for a fast, trustworthy UX.",
+    "githubUrl": "https://github.com/your-username/student-management-system",
+    "liveUrl": "https://student-management-demo.vercel.app",
+    "category": "Full Stack",
+    "featured": true
+  },
+  {
+    "id": "school-website",
+    "title": "School Website",
+    "summary": "A responsive marketing and information site for a secondary school.",
+    "description": "A static multi-page website for a school, covering admissions, academics, staff and news. Focused on accessibility and fast load times for visitors on low-bandwidth connections.",
+    "image": "/projects/school-website.svg",
+    "technologies": ["HTML", "CSS", "JavaScript"],
+    "features": [
+      "Fully responsive layout with a mobile navigation drawer",
+      "Accessible forms for admissions enquiries",
+      "Image-light design tuned for fast first paint",
+      "Vanilla JS scroll-spy navigation"
+    ],
+    "challenges": "Delivering a polished, animated experience using only vanilla JavaScript, without a framework to lean on for state management.",
+    "learnings": "Reinforced core DOM APIs and taught me to be deliberate about performance budgets from the very first line of CSS.",
+    "githubUrl": "https://github.com/your-username/school-website",
+    "liveUrl": "https://school-website-demo.vercel.app",
+    "category": "Frontend"
+  },
+  {
+    "id": "restaurant-website",
+    "title": "Restaurant Website",
+    "summary": "A visually rich single-page site for a fictional restaurant brand.",
+    "description": "A single-page React application showcasing a restaurant's menu, story and reservation flow, with scroll-triggered animations and a mobile-first layout.",
+    "image": "/projects/restaurant-website.svg",
+    "technologies": ["React", "Framer Motion", "Tailwind CSS"],
+    "features": [
+      "Animated hero with parallax food photography",
+      "Filterable menu by course and dietary tag",
+      "Reservation form with inline validation",
+      "Dark, moody theme matching the brand"
+    ],
+    "challenges": "Keeping animation-heavy sections performant on mid-range mobile devices.",
+    "learnings": "Learned to profile and trim Framer Motion animations, and to prefer transform/opacity animations over layout-triggering properties.",
+    "githubUrl": "https://github.com/your-username/restaurant-website",
+    "liveUrl": "https://restaurant-website-demo.vercel.app",
+    "category": "Frontend"
+  },
+  {
+    "id": "ecommerce-website",
+    "title": "E-commerce Website",
+    "summary": "A full online store with cart, checkout and an admin product catalog.",
+    "description": "A full-stack e-commerce application with product browsing, cart management and checkout on the frontend, backed by a Django REST API handling products, orders and authentication.",
+    "image": "/projects/ecommerce-website.svg",
+    "technologies": ["React", "Django", "REST API", "MySQL"],
+    "features": [
+      "Product catalog with filtering, search and sorting",
+      "Persistent cart with quantity management",
+      "JWT-authenticated checkout flow",
+      "Admin dashboard for managing inventory"
+    ],
+    "challenges": "Keeping cart state consistent between the client and server, especially around stock levels during checkout.",
+    "learnings": "Gained hands-on experience with optimistic UI updates and handling race conditions in an inventory system.",
+    "githubUrl": "https://github.com/your-username/ecommerce-website",
+    "liveUrl": "https://ecommerce-demo.vercel.app",
+    "category": "Full Stack",
+    "featured": true
+  },
+  {
+    "id": "personal-finance-tracker",
+    "title": "Personal Finance Tracker",
+    "summary": "A budgeting dashboard for tracking income, expenses and savings goals.",
+    "description": "A React application for tracking personal income and expenses, visualizing spending by category, and setting savings goals with progress indicators.",
+    "image": "/projects/personal-finance-tracker.svg",
+    "technologies": ["React", "TypeScript", "Recharts"],
+    "features": [
+      "Interactive charts for spending by category and month",
+      "Savings goals with animated progress rings",
+      "CSV import for bank statement data",
+      "Local-first storage with export to JSON"
+    ],
+    "challenges": "Modeling recurring transactions and monthly rollovers in a way that stayed simple to reason about in the UI.",
+    "learnings": "Improved my data-modeling skills and got comfortable building custom chart components on top of Recharts primitives.",
+    "githubUrl": "https://github.com/your-username/personal-finance-tracker",
+    "liveUrl": "https://finance-tracker-demo.vercel.app",
+    "category": "Frontend"
+  },
+  {
+    "id": "task-manager-api",
+    "title": "Task Manager API",
+    "summary": "A production-style REST API for managing tasks, projects and teams.",
+    "description": "A Django REST Framework API providing authentication, task CRUD, project grouping and team assignment, designed as the backend for future task-management clients.",
+    "image": "/projects/task-manager-api.svg",
+    "technologies": ["Django REST Framework", "Python", "SQLite"],
+    "features": [
+      "Token-based authentication and permissions",
+      "Nested serializers for tasks within projects within teams",
+      "Filtering, search and pagination on all list endpoints",
+      "Auto-generated OpenAPI documentation"
+    ],
+    "challenges": "Structuring serializers to avoid N+1 queries once tasks, projects and teams were deeply nested.",
+    "learnings": "Learned to use select_related/prefetch_related deliberately and to reason about API design independent of any one frontend.",
+    "githubUrl": "https://github.com/your-username/task-manager-api",
+    "liveUrl": "",
+    "category": "API"
+  }
+]

@@ -1,0 +1,23 @@
+{
+  "name": "Ademola Adedolapo Olalekan",
+  "role": "Full Stack Web Developer",
+  "tagline": "I build fast, accessible products end-to-end — from the database to the pixel.",
+  "location": "Lagos, Nigeria (Open to remote & relocation)",
+  "email": "ademolabillions@gmail.com",
+  "resumeUrl": "/resume.pdf",
+  "yearsExperience": 5,
+  "projectsShipped": 12,
+  "githubUsername": "adebills",
+  "socials": [
+    { "label": "GitHub", "url": "https://github.com/adebills", "icon": "FaGithub" },
+    { "label": "LinkedIn", "url": "https://www.linkedin.com/in/ademolaolalekan", "icon": "FaLinkedin" },
+    { "label": "Twitter", "url": "https://twitter.com/ademolaolalekan", "icon": "FaTwitter" },
+    { "label": "Email", "url": "mailto:ademolabillions@gmail.com", "icon": "FaEnvelope" }
+  ],
+  "funFacts": [
+    "Debugged my first production issue at 2am and got hooked on the adrenaline.",
+    "I can (mostly) center a div without looking it up anymore.",
+    "Mechanical keyboard collector — currently 4 boards deep.",
+    "Learning Go on weekends, one small CLI tool at a time."
+  ]
+}
